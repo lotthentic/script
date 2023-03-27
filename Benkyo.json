@@ -1,6 +1,4 @@
-var obj = JSON.parse($response.body);
-
-obj={
+{
   "request_date": "2021-01-15T15:04:01Z",
   "request_date_ms": 1610723041631,
   "subscriber": {
@@ -35,4 +33,3 @@ obj={
     }
   }
 };
-$done({body: JSON.stringify(obj)});
