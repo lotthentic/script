@@ -1,6 +1,4 @@
-var obj = JSON.parse($response.body);
-
-obj={
+{
   "status": "success",
   "response": [
     {
@@ -29,4 +27,4 @@ obj={
     }
   ]
 }
-$done({body: JSON.stringify(obj)});
+
